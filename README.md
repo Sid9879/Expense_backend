@@ -25,3 +25,10 @@ It allows users to **create**, **read**, **update**, **delete**, and **search** 
 
 ## 🗂️ Project Structure
 
+├── controllers/ # Request handlers (create, get, update, delete, search)
+├── models/ # Mongoose schema for Expense
+├── routes/ # Express route definitions
+├── server.js # Entry point
+├── .env # Environment variables
+├── package.json # Project metadata & scripts
+└── README.md # This file
